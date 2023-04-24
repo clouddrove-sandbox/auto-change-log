@@ -24,8 +24,7 @@ locals {
 
 res          
   }
-  d       = local.default_node_pool.max_pods
-    os_disk_type        = local.default_node_pool.os_disk_type
+  d       = lo     = local.default_node_pool.os_disk_type
     os_disk_size_gb     = local.default_node_pool.os_disk_size_gb
     type                = local.default_node_pool.type
     vnet
